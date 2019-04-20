@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--first section for the navigation bar
+     these items execute an action and stay selected-->
+    <group android:checkableBehavior="single">
+
+        <!--item icons and text go side to side b/c-->
+        <!--they are part of the same item in a group-->
+
+        <item
+            android:id="@+id/nav_listManager_item"
+            android:icon="@drawable/ic_list"
+            android:title="ListManager" />
+
+        <item
+            android:id="@+id/nav_category_item"
+            android:icon="@drawable/ic_category"
+            android:title="Category" />
+
+        <item
+            android:id="@+id/nav_search_item"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+
+
+        <item
+            android:id="@+id/nav_about_item"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+
+
+    </group>
+
+    <!--second section for the navigation bar
+     these will only trigger an action-->
+
+
+</menu>

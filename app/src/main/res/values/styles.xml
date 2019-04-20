@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="android:TextAppearance">
+        <!-- Customize your title here.
+        <item name="android:titleMarginStart">10dp</item>-->
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--making the slight bar at the top transparent-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
